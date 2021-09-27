@@ -50,6 +50,9 @@ Grpuavdhrf
     - Fcevat
 - Crrxf
     - Evssyr Crrx
+- Fgnpxf
+    - Oneg Uneqvat
+    - Pl Fgroovaf
 - Gbc Punatr
 
 
@@ -166,6 +169,69 @@ unaq. Gur zntvpvna gura guhzof bss gur gbc pneq gb gur fcrpgngbe.
 Gur vyyhfvba vf gung gur fcrpgngbe oryvrirf gur pneq ng gur oernx jurer ur
 pnyyrq "fgbc" vf tvira gb uvz, jura ernyyl gur gbc pneq bs gur qrpx jnf sbeprq
 ba uvz.
+
+### Fgnpxf
+
+#### Oneg Uneqvat
+
+    10p 07u 04f 0nq 0wq 06p 07p 09f 06q 0np 0wp 08u 05f
+    02q 0dq 03u 0xu 10f 07q 02p 0dp 09u 06f 03q 0xq 04u
+    0nf 0wf 08q 03p 0xp 10u 07f 04q 08p 05u 02f 0df 09q
+    04p 0nu 0wu 08f 05q 09p 06u 03f 0xf 10q 05p 02u 0du
+
+Guvf fgnpx nyybjf gur zntvpvna gb xabj gur pneq ng nal neovgenel cbfvgvba (1-52).  Gur nytbevguz vf:
+
+    vs qrpx_cbf == 6:
+        erghea "06p"
+    ryvs qrpx_cbf == 7:
+        erghea "07p"
+    ryfr:
+        qvtvgf = qrpx_cbf_gb_2_qvtvgf(qrpx_cbf)  # R.t. 6 -> (0, 6), 26 -> (6, 2)
+        vs qvtvgf[0] > 5:
+            qvtvgf = (qvtvgf[0] - 5, qvtvgf[1] + 5)
+        punfrq_qrpx_cbf = pbzovar_qvtvgf(qvtvgf)  # R.t. (2, 5) -> 25, (0, 3) -> 3
+        erghea punfrq_qrpx_cbf
+
+Gur nqinagntrf bs guvf fgnpx ner:
+
+- Vg vf qvssvphyg sbe n fcrpgngbe gb qrgrpg n cnggreaf.  Gur beqre bs gur pneqf
+  nccrnef gb or enaqbz.
+- Gur nytbevguz sbe pbzchgvat gur pneq cbfvgvba va n fbegrq qrpx vf snveyl
+  fgenvtugsbejneq jvgu bayl 2 rkprcgvbaf.
+
+Gur znwbe qvfnqinagntr bs guvf fgnpx vf gung vg arrqf gb or frg hc va nqinapr.
+Gurer vf ab fvzcyr jnl gb trg vagb.  Gur frdhrapr zhfg or nffrzoyrq ol
+sbyybjvat n yvfg be pbzzvggvat gur ragver frdhrapr bs 52 pneqf gb zrzbel.
+
+#### Pl Fgroovaf
+
+Guvf fgnpx sbyybjf gur cnggrea:
+
+    0np 04u 07f 10q 0xp 03u 06f 09q 0dp 02u 05f 08q ...
+
+Gur fhvgf nygreangr va "punfrq" beqre naq gur enax vapernfrf ol 3 zbqhyhf 13.
+Gb nffrzoyr gur fgnpx, gur zntvpvna frcnengrf gur qrpx ol fhvg naq neenatrf gur
+4 cvyrf va nfpraqvat enax (N-X).  Gur cvyrf ner neenatrq va "punfrq" beqre.
+Gur npr bs pyhof vf phg gb gur gbc bs gur svefg cvyr.  Gur 4 bs urnegf vf phg
+gb gur gbc bs gur frpbaq.  Gur 7 bs fcnqrf vf phg gb gur gbc bs gur 3eq.  Gur
+10 bs qvnzbaqf vf phg gb gur gbc bs gur 4gu.  Svanyyl, bar pneq vf qrnyg sebz
+gur gbc bs rnpu cvyr va beqre gb gur fgnpxrq qrpx hagvy nyy gur pneqf unir orra
+qrnyg.
+
+Gur nqinagntrf bs guvf fgnpx ner:
+
+- Vg vf abg qvssvphyg gb trg vagb.
+- Ba pnfhny vafcrpgvba gur beqre bs gur pneqf nccrnef gb or enaqbz.
+- Vs gur zntvpvna frrf gur obggbz pneq bs gur qrpx, ur pna vzzrqvngryl xabj gur
+  gbc pneq bs gur qrpx.
+- Gur qrpx znl or phg zhygvcyr gvzrf naq fgvyy ergnvaf nyy vgf nqinagntrf.
+
+Gur znva qvfnqinagntr bs guvf fgnpx vf gung gur beqre bs gur pneqf znl abg fgnaq hc gb pybfre fpehgval.  Na bofreinag fcrpgngbe znl abgvpr:
+
+- Gur pneqf *nyjnlf* nygreangr va pbybe.
+- Gur fhvgf *nyjnlf* sbyybj gur "punfrq" cnggrea.
+- Ehaf bs 4 pneqf bsgra frrz gb or va nfpraqvat beqre.
+- Gur enaxf bs gur pneqf frrz gb vapernfr ol 3 zbq 13 ng rirel cbfvgvba.
 
 Rssrpgf
 -------
